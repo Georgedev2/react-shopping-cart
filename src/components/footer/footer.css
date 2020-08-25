@@ -1,0 +1,152 @@
+.follow-us {
+  margin-bottom: 40px;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.follow-us_title {
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.follow-us::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.follow-us > div {
+  width: 300px;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.follow-us_title {
+  margin-top: 27px;
+}
+
+/* --------------   ---------------- */
+.footer {
+  font-family: sans-serif;
+  display: flex;
+  border-top: 2px solid lightgray;
+  padding: 50px 0;
+  font-size: 20px;
+}
+.footer_info {
+  width: 25%;
+}
+
+.footer-info_title {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.footer-info_c li {
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  list-style-type: none;
+  cursor: pointer;
+}
+/* --------------   ---------------- */
+.footer-method {
+  width: 45%;
+}
+.payment-method_title {
+  font-weight: 600;
+}
+
+.payment-method_title,
+.delivery-method_title {
+  text-transform: uppercase;
+  margin: 0.5rem 0;
+}
+.payment-method img {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+/* --------------   ---------------- */
+.delivery-method {
+  display: flex;
+  flex-direction: column;
+}
+.delivery-method img {
+  height: 70px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+/* --------------   ---------------- */
+
+.footer_store-info {
+  width: 30%;
+}
+.footer_store-info_title {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.footer_store-info_email,
+.footer_store-info_nub {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+}
+.footer-call,
+.footer-email {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* ---------------------------- */
+@media (max-width: 784px) {
+  .follow-us {
+    width: 95%;
+    margin-bottom: 1rem;
+  }
+  .follow-us_title {
+    padding: 1.5rem 0;
+    font-size: 15px;
+  }
+  .follow-us > div {
+    width: 100%;
+    justify-content: space-between;
+  }
+  /* ----------- ------------- */
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    padding: 1.5rem 0;
+    font-size: 15px;
+  }
+  .footer-info_title {
+    margin: 1rem 0;
+  }
+  .footer_info,
+  .footer-method,
+  .footer_store-info {
+    width: 97%;
+    margin-bottom: 1.8rem;
+  }
+  /* -----------  ------------- */
+  .footer_store-info_nub {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer_store-info_nub,
+  .footer_store-info_email {
+    width: 60%;
+  }
+}
+
+@media (max-width: 350px) {
+  .footer_store-info_nub,
+  .footer_store-info_email {
+    width: 100%;
+  }
+}

@@ -1,0 +1,93 @@
+.header {
+  background-color: #f3cfa7;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  height: 100px;
+  position: fixed; /* For a stickey header */
+  top: 0;
+  z-index: 200;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.19);
+}
+.header_body {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.header-cart {
+  align-self: center;
+  cursor: pointer;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  align-self: center;
+  background-image: url("/shopping_cart/shopping-cart-empty-side-view-svgrepo-com.svg");
+  background-size: cover;
+}
+
+.header_cart-qty {
+  position: absolute;
+  font-size: 14px;
+  background-color: lightsalmon;
+  top: -10px;
+  right: -15px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  font-weight: 700;
+}
+.header_cart-qty:hover {
+  background-color: #a86929;
+  color:#fff;
+}
+.header_title {
+  align-self: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #fff;
+}
+.header_title:hover {
+  color: #a86929;
+}
+
+.header_cart-text {
+  position: absolute;
+  bottom: 0px;
+  right: -40px;
+  font-size: 16px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.header_cart-text:hover {
+  color: #fff
+}
+@media (max-width: 500px) {
+  .header-cart {
+   margin-right: 20px;
+  }
+  .header_body {
+    width: 80%;
+  }
+  .header_title span {
+    font-size: 20px;
+  }
+  .header-cart {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .header_body {
+    width: 85%;
+  }
+}
+

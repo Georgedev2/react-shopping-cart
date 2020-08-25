@@ -1,0 +1,49 @@
+/* Syling of social icons */
+
+.icons {
+  margin-top: 1.9rem;
+  display: flex;
+}
+.icons a {
+  border-radius: 5px;
+}
+.twitter-icon span,
+.facebook-icon span,
+.telegram-icon span,
+.linkedin-icon span {
+  display: block;
+  width: 25px;
+  height: 25px;
+  padding: 3px;
+  background-color: #eee;
+  border-radius: 3px;
+  margin: 0.5rem;
+  background-size: cover;
+  background-color: var(--link-color);
+}
+
+.twitter-icon span {
+  /* black background white image twitter icon */
+  background-image: url("/Social_svg_icons/twitter_icon_b&w2.png");
+}
+
+.facebook-icon span {
+  /* you specify the backgroung of this image. though the image is white */
+  background-image: url("/Social_svg_icons/Facebook_Icon.svg");
+
+  background-color: #000;
+}
+
+.telegram-icon span {
+  background-image: url("/Social_svg_icons/telegram-b&w_icon.svg");
+}
+.linkedin-icon span {
+  background-image: url("/Social_svg_icons/linkedin_b&w_icon.svg");
+}
+
+.twitter-icon:focus,
+.linkedin-icon:focus,
+.telegram-icon:focus,
+.facebook-icon:focus {
+  border: 2px solid #f68b1e;
+}

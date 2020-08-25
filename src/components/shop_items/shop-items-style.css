@@ -1,0 +1,144 @@
+.shop {
+  margin: 10rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.shop-title {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #f68b1e;
+  letter-spacing: 2px;
+}
+/* ---------LOADER----- */
+.loader {
+  display: none;
+  width: 100%;
+}
+
+.showModal {
+  display: block;
+}
+/* ---------  ---------- */
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+  /*  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.19); */
+}
+.shop-item {
+  position: relative;
+  flex: 0 0 27%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  border-radius: 0.3rem;
+  /*   background-color: #fff; */
+  background-color: ivory;
+}
+.shop-item:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.shop-item_img-c {
+  overflow: hidden;
+}
+.shop-item_img-c img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.3rem 0.3rem 0.2rem 0.2rem;
+  transition: transform 0.5s ease-in;
+}
+.shop-item_img-c img:hover {
+  transform: scale(1.03);
+}
+.shop-item_title {
+  margin: 0.8rem;
+  font-size: 25px;
+}
+.shop-item_price {
+  text-transform: uppercase;
+  font-size: 23px;
+  margin-left: 16px;
+}
+
+.add-to-cart-btn {
+  padding: 8px 16px;
+  align-self: flex-start;
+  border-radius: 5px;
+  margin: 0.8rem;
+  background-color: #f68b1e;
+  cursor: pointer;
+  font-size: 23px;
+  color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+}
+.add-to-cart-btn:active {
+  border: 2px solid #fff;
+  transform: translateY(-2px);
+}
+.shop-item_dsct-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.857rem;
+  padding-left: 4px;
+  background-color: #feefde;
+  color: #f68b1e;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 2px;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+@media (max-width: 982px) {
+  .shop-item {
+    flex: 0 0 45%;
+  }
+  .shop-title {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .shop {
+    width: 97%;
+  }
+
+  .shop-item {
+    flex: 0 0 40%;
+  }
+  .shop-item_title,
+  .shop-item_price {
+    font-size: 20px;
+  }
+
+  .add-to-cart-btn {
+    font-size: 17px;
+  }
+  .add-to-cart-btn {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .shop-item {
+    flex: 0 0 80%;
+  }
+  .add-to-cart-btn {
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .add-to-cart-btn {
+    font-size: 17px;
+  }
+}
