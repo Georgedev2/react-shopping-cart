@@ -1,0 +1,46 @@
+{
+  "shopItems": [
+    {
+      "id": 10,
+      "shopItemImg": "/shop-image/image1.jpg",
+      "title": "Pure Vegetable Oil ( 5 liter )",
+      "price": 34990,
+      "dsctPrice": "-26%"
+    },
+    {
+      "id": 20,
+      "shopItemImg": "/shop-image/image2.jpg",
+      "title": "Bycicle",
+      "price": 2990,
+      "dsctPrice": "-11%"
+    },
+    {
+      "id": 30,
+      "shopItemImg": "/shop-image/image3.jpg",
+      "title": "Elepue 10kva",
+      "price": 2990,
+      "dsctPrice": "-11%"
+    },
+    {
+      "id": 40,
+      "shopItemImg": "/shop-image/image4.jpg",
+      "title": "Wireless bluetooth phone",
+      "price": 2990,
+      "dsctPrice": "-23%"
+    },
+    {
+      "id": 50,
+      "shopItemImg": "/shop-image/image5.jpg",
+      "title": "Hiway Bluetooth Speaker V4.2, portable Bluetooth Speaker..",
+      "price": 2990,
+      "dsctPrice": "-11%"
+    },
+    {
+      "id": 60,
+      "shopItemImg": "/shop-image/image6.jpg",
+      "title": "Earpice for chidren",
+      "price": 2990,
+      "dsctPrice": "-11%"
+    }
+  ]
+}

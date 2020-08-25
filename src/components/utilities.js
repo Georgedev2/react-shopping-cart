@@ -1,10 +1,10 @@
 export let totalQty = () => {
-  let cartItems = JSON.parse(localStorage.getItem("cartItems"));
+  let cartItems = JSON.parse(localStorage.getItem("cartItems"))|| [];
 
   let totalQty = cartItems.reduce((acc, el) => {
     return acc + el.qty;
   }, 0);
-  return totalQty;
+  return totalQty; 
 };
 
 export let info = [

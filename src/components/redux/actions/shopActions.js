@@ -22,7 +22,7 @@ export const shopActions = () => {
   return (dispatch) => {
     dispatch(isFetching());
 
-    fetch("/data.json")
+    fetch("/shopData.json")
       .then((res) => {
         if (res.ok) {
           return res.json();
