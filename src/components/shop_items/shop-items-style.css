@@ -78,11 +78,18 @@
   color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
+  transform: translateY(0);
+  transition: all 200ms;
 }
 .add-to-cart-btn:active {
   border: 2px solid #fff;
   transform: translateY(-2px);
 }
+.add-to-cart-btn:hover {
+  box-shadow: 0 0 15px #ddd;
+  transform: translateY(-3px);
+}
+
 .shop-item_dsct-tag {
   position: absolute;
   top: 10px;
