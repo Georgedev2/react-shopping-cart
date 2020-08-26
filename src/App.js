@@ -18,7 +18,6 @@ import { totalQty } from "./components/utilities";
 import { Switch, Route } from "react-router-dom";
 
 function App({ cartItems, cartModalInfo }) {
-  /*   const [btnStatus] = useState(false); */
 
   return (
     <div className="App">
@@ -61,8 +60,3 @@ let mapStateToProps = (state) => {
 
 export default connect(mapStateToProps)(App);
 
-/*   "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
-    "redux": "^4.0.5",
-    "redux-devtools-extension": "^2.13.8",
-    "redux-thunk": "^2.3.0" */
