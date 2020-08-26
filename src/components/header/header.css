@@ -44,7 +44,8 @@
 }
 .header_cart-qty:hover {
   background-color: #a86929;
-  color:#fff;
+  color: #fff;
+  transition: all 200ms;
 }
 .header_title {
   align-self: center;
@@ -56,6 +57,7 @@
 }
 .header_title:hover {
   color: #a86929;
+  transition: color 200ms;
 }
 
 .header_cart-text {
@@ -68,11 +70,12 @@
   font-weight: 700;
 }
 .header_cart-text:hover {
-  color: #fff
+  color: #fff;
+  transition: color 200ms;
 }
 @media (max-width: 500px) {
   .header-cart {
-   margin-right: 20px;
+    margin-right: 20px;
   }
   .header_body {
     width: 80%;
@@ -90,4 +93,3 @@
     width: 85%;
   }
 }
-
