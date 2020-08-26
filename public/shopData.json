@@ -2,14 +2,14 @@
   "shopItems": [
     {
       "id": 10,
-      "shopItemImg": "/shop-images/one.jpg",
+      "shopItemImg": "/shop-images/five.jpg",
       "title": "Asus-x543ua-gq2140t-intel-core-i3...",
       "price": 147990,
       "dsctPrice": "-26%"
     },
     {
       "id": 20,
-      "shopItemImg": "/shop-images/two.jpg",
+      "shopItemImg": "/shop-images/six.jpg",
       "title": "Apple-macbook-pro-16.0-screen-touch-bar-512gb-16gb-core-i7...",
       "price": 1150000,
       "dsctPrice": "-11%"
@@ -30,14 +30,14 @@
     },
     {
       "id": 50,
-      "shopItemImg": "/shop-images/five.jpg",
+      "shopItemImg": "/shop-images/two.jpg",
       "title": "Dell-xps-8thgen-core-i7-512gb-ssd16gb-ram-13.3-winds-10...",
       "price": 573220,
       "dsctPrice": "-11%"
     },
     {
       "id": 60,
-      "shopItemImg": "/shop-images/six.jpg",
+      "shopItemImg": "/shop-images/one.jpg",
       "title": "Dell-xps-8thgen-core-i7-512gb-ssd16gb...",
       "price": 645000,
       "dsctPrice": "-8%"

@@ -81,11 +81,11 @@ function Cart({ cartItems, btnStatus, dispatch }) {
                 </div>
 
                 <div className="cart-item_unit-prc">
-                <span >Unit price</span> <span>${item.price}</span>
+                  <span>Unit price</span> <span>₦{item.price}</span>
                 </div>
 
                 <div className="cart-item_sub-total">
-                <span >total</span>    <span>${item.price * item.qty}</span>
+                  <span>total</span> <span>₦{item.price * item.qty}</span>
                 </div>
               </div>
             ))}
@@ -95,7 +95,7 @@ function Cart({ cartItems, btnStatus, dispatch }) {
             <div>
               <span className="shopping-cart-total_title">total</span>
               <span className="shopping-cart-total_price">
-                ${" "}
+                ₦{" "}
                 {cartItems.reduce((acc, item) => {
                   return acc + item.price * item.qty;
                 }, 0)}
