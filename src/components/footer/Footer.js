@@ -36,7 +36,10 @@ function Footer() {
 
           <div className="delivery-method">
             <div className="delivery-method_title">delevery</div>
-            <img src="/shopping_cart/fedex.svg" alt="fedex" />
+            <div>
+              <img src="/shopping_cart/dhl.svg" alt="fedex" />
+              <img src="/shopping_cart/fedex.svg" alt="fedex" />
+            </div>
           </div>
         </div>
 
