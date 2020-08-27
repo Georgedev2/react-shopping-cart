@@ -15,5 +15,3 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-/* ./src/index.js
-Module not found: Can't resolve 'react-redux' in 'C:\Users\Nwobodo george\Desktop\MY REACT\react-shopping-cart\src' */

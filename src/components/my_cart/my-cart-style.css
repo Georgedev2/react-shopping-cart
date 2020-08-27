@@ -82,7 +82,12 @@
   border-radius: 5px;
   padding: 8px 16px;
   display: inline-block;
-  /*   width: fit-content; */
+  transform: translateY(0);
+  transition: all 200ms;
+}
+.cart-item-remove-btn:hover {
+  box-shadow: 0 0 15px #ddd;
+  transform: translateY(-3px);
 }
 
 /* ---------   ---------------- */
@@ -113,11 +118,15 @@
   font-weight: bolder;
   padding: 5px 15px;
   pointer-events: all;
+  transform: translateY(0);
+  transition: all 200ms;
 }
 
 .cart-item-qty_incr-btn:hover,
 .cart-item-qty_decr-btn:hover {
   color: #f68b1e;
+  box-shadow: 0 0 15px #ddd;
+  transform: translateY(-3px);
 }
 .cart-item-qty_qty {
   display: inline-flex;
