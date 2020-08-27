@@ -18,7 +18,6 @@ import { totalQty } from "./components/utilities";
 import { Switch, Route } from "react-router-dom";
 
 function App({ cartItems, cartModalInfo }) {
-
   return (
     <div className="App">
       <Header totalQty={totalQty} />
@@ -59,4 +58,3 @@ let mapStateToProps = (state) => {
 };
 
 export default connect(mapStateToProps)(App);
-
