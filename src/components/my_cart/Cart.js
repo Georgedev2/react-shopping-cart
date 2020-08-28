@@ -46,7 +46,7 @@ function Cart({ cartItems, btnStatus, dispatch }) {
                 <div className="cart-item_detail">
                   <img src={item.shopItemImg} alt={item.title} />
                   <div className="cart-item-detail_body">
-                    <h4>{item.title}</h4>
+                    <p>{item.title}</p>
                     <div
                       className="cart-item-remove-btn"
                       onClick={() => {

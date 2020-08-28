@@ -68,9 +68,9 @@
   background-color: papayawhip;
   margin-right: 10px;
 }
-.cart-item-detail_body > h4 {
-  font-weight: 500;
-  font-size: 25px;
+.cart-item-detail_body > p {
+  font-weight:500;
+  font-size: 20px;
 }
 
 .cart-item-remove-btn {

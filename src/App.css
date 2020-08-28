@@ -24,3 +24,11 @@ code {
   width: 85%;
   margin: auto;
 }
+
+@media(max-width:500px){
+  .App-body,
+  .App-footer {
+    width: 95%;
+  
+  }
+}
