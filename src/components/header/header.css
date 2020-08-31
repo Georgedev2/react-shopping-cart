@@ -1,7 +1,7 @@
 .header {
   background-color: #f3cfa7;
-  font-size: 1.6rem;
   font-family: sans-serif;
+  font-size: 30px;
   height: 100px;
   position: fixed; /* For a stickey header */
   top: 0;
@@ -10,7 +10,7 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.19);
 }
 .header_body {
-  width: 85%;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -73,6 +73,16 @@
   color: #fff;
   transition: color 200ms;
 }
+
+@media (max-width: 768px) {
+  .header_body {
+    width: 85%;
+  }
+  .header_title span {
+    font-size: 17px;
+  }
+}
+
 @media (max-width: 500px) {
   .header-cart {
     margin-right: 20px;
@@ -80,16 +90,9 @@
   .header_body {
     width: 80%;
   }
-  .header_title span {
-    font-size: 20px;
-  }
+
   .header-cart {
     width: 50px;
     height: 50px;
-  }
-}
-@media (max-width: 768px) {
-  .header_body {
-    width: 85%;
   }
 }

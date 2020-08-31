@@ -144,7 +144,7 @@
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 500px) {
   .footer_store-info_nub,
   .footer_store-info_email {
     width: 100%;

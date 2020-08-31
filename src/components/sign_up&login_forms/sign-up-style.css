@@ -24,7 +24,7 @@
   left: 15px;
   background-color: #fff;
   font-size: 22px;
-  padding: 8px 8px;
+  padding: 10px 8px;
   line-height: 0px;
   font-weight: var(--form-font);
 }
@@ -96,12 +96,16 @@
   .sign-up-form__box__password,
   .sign-up-form__confPassword {
     font-size: 17px;
-  
   }
 }
 @media (max-width: 500px) {
   .sign-up-form {
-    padding: 0
-  
+    padding: 0;
+  }
+  .sign-up-form__member {
+    text-align: center;
+  }
+  .sign-up-form__box label {
+    font-size: 18px;
   }
 }

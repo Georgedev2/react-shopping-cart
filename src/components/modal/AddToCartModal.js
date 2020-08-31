@@ -28,7 +28,7 @@ function AddToCartModal({ cartModalInfo, dispatch }) {
           <div className="cart-btn_container">
             <span>
               <NavLink
-                to="#/signUp"
+                to="/signUp"
                 className="proceed-to-checkout"
                 onClick={closeModalHandler}
               >
@@ -38,7 +38,7 @@ function AddToCartModal({ cartModalInfo, dispatch }) {
 
             <span>
               <NavLink
-                to="#/"
+                to="/"
                 className="continue-shopping"
                 onClick={closeModalHandler}
               >

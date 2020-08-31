@@ -53,11 +53,20 @@ function Cart({ cartItems, btnStatus, dispatch }) {
                         dispatch(removeItemFromCart(item));
                       }}
                     >
-                      REMOVE from cart
+                      remove from cart
                     </div>
                   </div>
                 </div>
-
+                {/*  */}
+                <div
+                  className="cart-item-remove-btn-mobile"
+                  onClick={() => {
+                    dispatch(removeItemFromCart(item));
+                  }}
+                >
+                  remove from cart
+                </div>
+                {/*  */}
                 <div className="cart-item-qty">
                   <span
                     className="cart-item-qty_incr-btn"
@@ -110,9 +119,3 @@ function Cart({ cartItems, btnStatus, dispatch }) {
 }
 
 export default connect()(Cart);
-
-/* let mapStateToProps = (state) => {
-  return {
-    cartItems: state.cartItems,
-  };
-}; */

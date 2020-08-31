@@ -93,3 +93,19 @@
     font-size: 17px;
   }
 }
+@media (max-width: 500px) {
+  .login-form {
+    padding: 0;
+  }
+  .login-form__member {
+    text-align: center;
+  }
+  .login-form__box__email,
+  .login-form__box__password,
+  .login-form__box label {
+    font-size: 18px;
+  }
+  .login-form--error {
+    font-size: 18px;
+  }
+}
