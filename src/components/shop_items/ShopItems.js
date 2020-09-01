@@ -15,7 +15,7 @@ const ShopItems = ({ products, dispatch, isFetching }) => {
 
   return (
     <div className="shop">
-      <div className="shop-title">products</div>
+      <div className="shop-title">Laptops</div>
       <div
         className={`loader ${
           isFetching && products.length === 0 && "showModal"
