@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
 import { NavLink } from "react-router-dom";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 
 function Header({ totalQty }) {
   return (
@@ -11,11 +12,13 @@ function Header({ totalQty }) {
         </NavLink>
 
         <NavLink to="/cart" className="header-cart">
+          <AiOutlineShoppingCart
+           color="black" size="3rem" className="header-cart_shopping-basket"/>
           <div className="header_cart-qty">
             <span>{totalQty()}</span>
           </div>
 
-          <span className="header_cart-text">cart</span>
+          <span className="header_cart-text">Cart</span>
         </NavLink>
       </div>
     </header>
@@ -23,3 +26,4 @@ function Header({ totalQty }) {
 }
 
 export default Header;
+

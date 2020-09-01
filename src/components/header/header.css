@@ -17,31 +17,26 @@
   height: 100%;
 }
 .header-cart {
-  align-self: center;
   cursor: pointer;
-  position: relative;
-  width: 60px;
-  height: 60px;
   align-self: center;
-  background-image: url("/shopping_cart/shopping-cart-empty-side-view-svgrepo-com.svg");
-  background-size: cover;
+  position: relative;
 }
 
 .header_cart-qty {
   position: absolute;
   font-size: 14px;
-  background-color: lightsalmon;
+  background-color: #f68b1e;
   top: -10px;
   right: -15px;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  border: 1px solid #fff;
-  font-weight: 700;
+  color: #fff;
 }
+
 .header_cart-qty:hover {
   background-color: #a86929;
   color: #fff;
@@ -62,15 +57,14 @@
 
 .header_cart-text {
   position: absolute;
-  bottom: 0px;
-  right: -40px;
+  bottom: 10px;
+  right: -35px;
   font-size: 16px;
   color: black;
-  text-transform: uppercase;
   font-weight: 700;
 }
 .header_cart-text:hover {
-  color: #fff;
+  color: #f68b1e;
   transition: color 200ms;
 }
 
@@ -88,11 +82,14 @@
     margin-right: 20px;
   }
   .header_body {
-    width: 80%;
+    width: 92%;
   }
 
   .header-cart {
     width: 50px;
     height: 50px;
+  }
+  .header_cart-text {
+    display: none;
   }
 }
