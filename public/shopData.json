@@ -3,63 +3,63 @@
     {
       "id": 10,
       "shopItemImg": "/shop-images/five.jpg",
-      "title": "Asus-x543ua-gq2140t-intel-core-i3...",
+      "title": "Asus x543ua gq2140t intel core i3...",
       "price": 147990,
       "dsctPrice": "-26%"
     },
     {
       "id": 20,
       "shopItemImg": "/shop-images/six.jpg",
-      "title": "Apple-macbook-pro-16.0-screen-touch-bar-512gb-16gb-core-i7...",
+      "title": "Apple macbook pro, 16.0\" screen touch bar, 512gb, 16gb core i7...",
       "price": 1150000,
       "dsctPrice": "-11%"
     },
     {
       "id": 30,
       "shopItemImg": "/shop-images/three.jpg",
-      "title": "Apple-macbook-air-13.3-retina-display-intel-core-i38gb-ram...",
+      "title": "Apple macbook air, 13.3\" retina display, intel core i38gb ram...",
       "price": 528600,
       "dsctPrice": "-11%"
     },
     {
       "id": 40,
       "shopItemImg": "/shop-images/four.jpg",
-      "title": "Hp-envy-13-aq1013dxcore-i7-10th-gen8gb512gb...",
+      "title": "Hp envy 13 aq1013dxcore i7 10th gen8gb512gb...",
       "price": 473220,
       "dsctPrice": "-23%"
     },
     {
       "id": 50,
       "shopItemImg": "/shop-images/two.jpg",
-      "title": "Dell-xps-8thgen-core-i7-512gb-ssd16gb-ram-13.3-winds-10...",
+      "title": "Dell xps 8thgen, core i7, 512gb ssd16gb ram 13.3\" winds 10...",
       "price": 573220,
       "dsctPrice": "-11%"
     },
     {
       "id": 60,
       "shopItemImg": "/shop-images/one.jpg",
-      "title": "Dell-xps-8thgen-core-i7-512gb-ssd16gb...",
+      "title": "Dell xps, 8thgen core i7, 512gb ssd16gb...",
       "price": 645000,
       "dsctPrice": "-8%"
     },
     {
       "id": 70,
       "shopItemImg": "/shop-images/seven.jpg",
-      "title": "Apple-macbook-air-intel-core-i5-1.6ghz-8gb-256gb-ssd-13.3...",
+      "title": "Apple macbook air, intel core i5, 1.6ghz 8gb 256gb ssd 13.3...",
       "price": 630000,
       "dsctPrice": "-11%"
     },
     {
       "id": 80,
       "shopItemImg": "/shop-images/eight.jpg",
-      "title": "Hp-zbook-studio-g5-core-i7512gb-32gb-ram-win10pro-nvidia-p1000-59438620...",
+      "title": "Hp zbook studio g5, core i7512gb 32gb ram win10pro nvidia p1000 59438620...",
       "price": 620000,
       "dsctPrice": "-9%"
     },
     {
       "id": 90,
       "shopItemImg": "/shop-images/nine.jpg",
-      "title": "Notebook-15-intel-core-i3-4gb-ram-1tb-hdd-windows-10-hp-mpg1481304...",
+      "title": "Notebook 15 intel, core i3 4gb ram 1tb hdd, windows 10 hp mpg1481304...",
       "price": 147590,
       "dsctPrice": "-11%"
     }

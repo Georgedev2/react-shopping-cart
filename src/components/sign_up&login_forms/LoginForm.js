@@ -89,7 +89,7 @@ class LoginForm extends Component {
         {passwordError && <p className="login-form--error">{passwordError}</p>}
 
         <button className="login-form__submit-btn " type="submit">
-          Login
+          LOGIN
         </button>
         <div className="login-form__member">
           <p>

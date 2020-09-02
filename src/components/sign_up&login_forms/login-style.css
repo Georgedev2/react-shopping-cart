@@ -105,7 +105,11 @@
   .login-form__box label {
     font-size: 18px;
   }
-  .login-form--error {
+
+  .login-form__submit-btn {
     font-size: 18px;
+  }
+  .login-form--error {
+    font-size: 15px;
   }
 }
