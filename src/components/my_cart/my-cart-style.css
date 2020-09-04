@@ -47,7 +47,7 @@
 /*--------- Styling of the individual cart item--------- */
 .cart-item {
   display: flex;
-  padding: 8px 20px;
+  padding: 0 20px 8px 20px;
   width: 100%;
   margin: 10px 0;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
@@ -58,7 +58,7 @@
 .cart-item_detail {
   width: 50%;
   display: flex;
-  padding: 10px;
+  padding: 0 10px;
   font-family: var(--font-stack);
 }
 
