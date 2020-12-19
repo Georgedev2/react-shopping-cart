@@ -22,6 +22,6 @@ STEP:3 If every thing went well and all the dependencies are install, then run:
 npm start
 ```
 
-The command: npm start will open your default browser and then run the app at http://localhost:3000
+The command: `npm start` will open your default browser and then run the app at http://localhost:3000
 
 To stop the development server running, run the command `CTRL+C`
