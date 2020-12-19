@@ -1,6 +1,6 @@
 # react-shopping-cart
 
-This project (portfolio site) was bootstrapped with create-react-app.
+This project (react-shopping-cart) was bootstrapped with create-react-app.
 
 ## To Run the app locally
 
