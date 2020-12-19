@@ -16,7 +16,7 @@ STEP:2 Install the dependencies using the below command:
 npm install
 ```
 
-STEP:4 If every thing went well and all the dependencies are install, then run:
+STEP:3 If every thing went well and all the dependencies are install, then run:
 
 ```
 npm start
